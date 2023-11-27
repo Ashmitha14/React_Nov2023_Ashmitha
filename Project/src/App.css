@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+body{
+ /* background-image: url('https://i.pinimg.com/originals/0a/b0/69/0ab0695921b585d28c263e6b7329abdd.jpg'); */
+ /* background-image: url('https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg?w=996&t=st=1700285964~exp=1700286564~hmac=6450cb3332f8c8e5c1ed9c919ee184bc12a8023e8de32c1e5ad717b2f5d814f7'); */
+ /* background-image: url('https://wallpapers.com/images/hd/pharmacy-background-2do2m3oj7x63eww2.jpg');  */
+ /* background-image: url('https://img.freepik.com/free-photo/different-pills-package_23-2147983094.jpg?w=740&t=st=1700411605~exp=1700412205~hmac=c0eb2204b6334d2f8f8e58d2ddbc47dcafa2fac09fb4fdf85e411e70d9fc79b9');  */
+ /* background-image: url('https://img.freepik.com/free-vector/watercolor-abstract-purple-background_23-2149120778.jpg?w=900&t=st=1700411749~exp=1700412349~hmac=dedc88c5a64105131459ba0d02bb6582ba686e1a01c554d9473a4494fecbbe74');  */
+ /* background-image: url('https://static.vecteezy.com/system/resources/previews/024/574/571/non_2x/blue-antibiotic-pill-in-laboratory-collection-variation-generative-ai-free-photo.jpg');  */
+ /* background-image: url('https://t3.ftcdn.net/jpg/02/12/03/74/240_F_212037427_oydbj8EqGcAifBdCfGBmOc7mxFGP9syo.jpg'); */
+ background-size:cover ;
+}
+.back{
+  background-image: url("https://t3.ftcdn.net/jpg/02/12/03/74/240_F_212037427_oydbj8EqGcAifBdCfGBmOc7mxFGP9syo.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.App-log {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
